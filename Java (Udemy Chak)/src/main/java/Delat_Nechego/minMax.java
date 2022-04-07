@@ -3,7 +3,7 @@ package Delat_Nechego;
 //Напишите программу, которая посчитает min и max значение в массиве. Проверьте работу программы на нескольких массивах	Ввод: [24, 13, -1, 2, 4, 70, 44]
 //Вывод: min = -1, max = 70
 
-import org.w3c.dom.ls.LSOutput;
+
 
 public class minMax {
 
@@ -29,8 +29,4 @@ public class minMax {
         minMax(array1);
     }
 }
-class mainIn{
-    public static void main(String[] args) {
-        System.out.println("Ptivet");
-    }
-}
+

@@ -1,6 +1,5 @@
 package Home;
 
-
 public class Student {
     private static StringBuilder name;
     private static int course;
@@ -11,7 +10,6 @@ public class Student {
         setName(name);
         setCourse(course);
         setGrade(grade);
-
     }
 
     public static StringBuilder getName() {
@@ -74,7 +72,6 @@ class TestStudent extends Student {
     public static void main(String[] args) {
         Student s1 = new Student(new StringBuilder("Nina"),2,10);
         s1.showInfo();
-
 
     }
 }
